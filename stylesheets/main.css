@@ -5,10 +5,43 @@ body  {
 	padding: 0;
 }
 
-.container {
-	width: 1000px;
+img {
+	border: none;
+	width: 200px;
+	
+}
+
+.images {
+	float: left;
+	margin-top: 40px;
+	margin-right: 20px;
+}
+
+text {
+	width: 460px;
+	float: right;
+	margin-top: 40px;
 
 }
+
+.content {
+	
+	width: 600px;
+	height: 100%;
+	position: absolute;
+	margin-top: 0px;
+	margin-left:300px;	
+}
+
+.container {
+	width: 1000px;
+}
+
+.container a:link , .container a:visited{
+	text-decoration: none;
+	color: #000000;
+}
+
 
 .sidemenu {
 	float: left;
@@ -18,14 +51,17 @@ body  {
 	background-color: #C0C0C0;
 	margin-top: -180px;
 	margin-left:0px;
+	
 }
 
 .sidemenu ul {
 	padding-left: 20px;
 	list-style-type: none;
 	text-align: right;
-	margin-top: 220px;
-	padding-right: 30px
+	margin-top: 179px;
+	padding-right: 30px;
+	border-top: 1px solid #C40C1D;
+	padding-top: 60px
 }
 
 .sidemenu a {
@@ -42,6 +78,11 @@ body  {
 }
 
 .sidemenu a:hover {
+	color: #C40C1D
+}
+
+
+.sidemenu ul li.selected a {
 	color: #C40C1D
 }
 
@@ -69,9 +110,5 @@ img.logo {
         width: 110px;
         height: 110px;
         float: right;
-}
-
-#list a:link#current, #list a:visited#current {
-color: #D12838;
 }
 
