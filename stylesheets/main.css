@@ -1,13 +1,60 @@
-body {
+body  {
+	font-family:'georgia';
+	background-color: #EFF3D2;
 	margin: 0;
 	padding: 0;
-	background: #EFF3D2;
+}
+
+.container {
+	width: 1000px;
 
 }
+
+.sidemenu {
+	float: left;
+	width: 250px;
+	height: 100%;
+	position: absolute;
+	background-color: #C0C0C0;
+	margin-top: -180px;
+	margin-left:0px;
+}
+
+.sidemenu ul {
+	padding-left: 20px;
+	list-style-type: none;
+	text-align: right;
+	margin-top: 220px;
+	padding-right: 30px
+}
+
+.sidemenu a {
+	display: block;
+	padding: 7px 0 7px 0;
+	font-size: 14px;
+	letter-spacing: 2px;
+
+}
+
+.sidemenu a:link , .sidemenu a:visited{
+	text-decoration: none;
+	color: #000000;
+}
+
+.sidemenu a:hover {
+	color: #C40C1D
+}
+
+li {
+	display: list-item;
+	text-align: -webkit-match-parent
+}
+
 header {
-        padding: 0 30px 0 30px;
+        padding: 0 40px 0 40px;
         border-bottom: solid 1px;
-        border-bottom-color: #C40C1D;      
+        border-bottom-color: #C40C1D;
+	margin-left:250px;
 }
 
 h1 {
@@ -23,3 +70,8 @@ img.logo {
         height: 110px;
         float: right;
 }
+
+#list a:link#current, #list a:visited#current {
+color: #D12838;
+}
+
