@@ -5,6 +5,24 @@ body  {
 	padding: 0;
 }
 
+img {
+	border: none;
+	width: 200px;
+	
+}
+
+.images {
+	float: left;
+	margin-top: 40px;
+	margin-right: 20px;
+}
+text {
+	width: 460px;
+	float: right;
+	margin-top: 40px;
+
+}
+
 .container {
 	width: 1100px;
 }
@@ -45,6 +63,11 @@ body  {
 .sidemenu a:hover {
 	color: #C40C1D;
 }
+
+.sidemenu ul li.selected a {
+	color: #C40C1D
+}
+
 
 li {
 	display: list-item;
