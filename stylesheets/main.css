@@ -32,27 +32,30 @@ text {
 .sidemenu {
 	float: left;
 	width: 250px;
-	height: auto;
-	position: absolute;
+	height: 1440px;
+	position: fixed;
 	background-color: #f4a460;
 	margin-top: -180px;
-	margin-left:0px;
+	margin-left:0px;	
+	-moz-box-shadow: 0 0 10px 10px #f4a460;
+	-webkit-box-shadow: 0 0 10px 10px #f4a460;
+	box-shadow: 0 0 10px 10px #f4a460;
 }
 
 .sidemenu ul {
-	
 	list-style-type: none;
 	text-align: right;
-	margin: 169px 30px 0px 30px;
+	margin: 177px 30px 0px 30px;
 	border-top: 1px solid #C40C1D;
-	padding: 50px 5px 0px 5px;
+	padding: 30px 5px 0px 5px;
 }
 
 .sidemenu a {
 	display: block;
+	font-family: 'Telex', sans-serif;
 	padding: 7px 0 7px 0;
 	font-size: 14px;
-	letter-spacing: 2px;
+	letter-spacing: 1px;
 
 }
 
@@ -86,27 +89,99 @@ h1 {
         font-family: 'Telex', sans-serif;
         font-size: 28px;
         margin: 35px 0px 35px 0px;
+	letter-spacing: 1px;
 }
 
-img.logo {
+.logo {
         width: 893px;
-        height: 145px;
+        height: 130px;
+	border: none;
+}
+
+.logolinkstyle {
+	display: block;
+	cursor: pointer;
+	position: absolute;
+	border: none;
 }
 
 /* Content*/
 
 .content {
-	width: 873px;
-	margin-left: 240px;
-	padding: 0 40px 0 40px;
+	width: 743px;
+	margin-left: 320px;
 }
 
 h2 {
 	font-family: 'Telex', sans-serif;
-        font-size: 20px;
-        margin: 35px 0px 35px 0px;
-	border-bottom: solid 1px #FFF;
-	padding: 0 40px 10px 40px;
-	width: 738px;
+        font-size: 18px;
 	color: #f4a460;
+	letter-spacing: 1px;
+	padding-top: 20px;
+}
+
+/* header linking*/
+.heading ul {
+	list-style: none;
+	background: url("header2.png") 0 0 no-repeat;
+	position: relative;
+	width: 893px;
+        height: 140px;
+	margin: 0;
+	padding: 0;
+}
+
+.heading ul li {
+	position: absolute;
+}
+
+.heading ul li a {
+	display: block;
+	height: 100%;
+	text-indent: -9000px;
+}
+
+.heading ul li.title {
+	width: 600px;
+	height: 120px;
+	top: 0;
+	left: 60px;
+}
+
+.heading ul li.logo {
+	width: 170px;
+	height: 120px;
+	top: 0;
+	left: 680px;
+}
+
+
+
+ul#continents {
+	list-style: none;
+	background: url("header2.png") 0 0 no-repeat;
+	position: relative;
+	width: 893px;
+        height: 140px;
+	margin: 0;
+	padding: 0;
+}
+
+ul#continents li {
+	border: solid 1px;
+	position: absolute;
+}
+
+#title {
+	width: 600px;
+	height: 120px;
+	top: 0;
+	left: 60px;
+}
+
+#logo {
+	width: 170px;
+	height: 120px;
+	top: 0;
+	left: 680px;
 }
