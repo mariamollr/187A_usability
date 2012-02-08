@@ -34,7 +34,7 @@ text {
 	width: 250px;
 	height: 100%;
 	position: absolute;
-	background-color: #C0C0C0;
+	background-color: #f4a460;
 	margin-top: -180px;
 	margin-left:0px;
 }
@@ -107,5 +107,5 @@ h2 {
 	border-bottom: solid 1px #FFF;
 	padding: 0 40px 10px 40px;
 	width: 738px;
-	color: #C40C1D;
+	color: #f4a460;
 }
