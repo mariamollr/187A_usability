@@ -118,6 +118,21 @@ h2 {
 	color: #f4a460;
 	letter-spacing: 1px;
 	padding-top: 20px;
+	padding-bottom: 10px;
+	font-weight: normal;
+
+}
+
+h2 em {
+	font-family: 'Telex', sans-serif;
+	font-size: 16px;
+	letter-spacing: 1px;
+	padding-top: 20px;
+	color: black;
+	font-style: inherit;
+	font-weight: normal;
+	
+	
 }
 
 /* header linking*/
