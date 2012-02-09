@@ -122,7 +122,6 @@ h2 {
 	padding-top: 20px;
 	padding-bottom: 10px;
 	font-weight: normal;
-
 }
 
 h2 em {
@@ -132,9 +131,7 @@ h2 em {
 	padding-top: 20px;
 	color: black;
 	font-style: inherit;
-	font-weight: normal;
-	
-	
+	font-weight: normal;	
 }
 
 /* header linking*/
@@ -172,33 +169,3 @@ h2 em {
 	left: 680px;
 }
 
-
-
-ul#continents {
-	list-style: none;
-	background: url("header2.png") 0 0 no-repeat;
-	position: relative;
-	width: 893px;
-        height: 140px;
-	margin: 0;
-	padding: 0;
-}
-
-ul#continents li {
-	border: solid 1px;
-	position: absolute;
-}
-
-#title {
-	width: 600px;
-	height: 120px;
-	top: 0;
-	left: 60px;
-}
-
-#logo {
-	width: 170px;
-	height: 120px;
-	top: 0;
-	left: 680px;
-}
