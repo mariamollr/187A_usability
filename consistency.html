@@ -1,42 +1,164 @@
 <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Consistency</title>
+    <meta name="description" content="something good should go here">
+    <meta name="author" content="your name should go here">
 
-<html>
-<head>
-    <title>Page Title</title>
-</head>
+    <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
 
-<body>
-    <p>
-        The biggest and most noticeable error on the louisiana website is the lack of consistency.
-        I'll start with the home page. It looks okay but has many different menus.
-        The problem is the menu at the bottom of the page, like 'search' and 'index a-z' etc. When clicking any link
-        at the home page, the menu I just mentiond moves to the top right of the page and the colors in 'Ulink' changes.
-        This makes it difficult from the start to get familiarized with the site. A menu like this should be placed in a
-        fixed location. The other menu at the top also changes backgorund color from yellow to red.
-    </p>
-    
-    <p>
-        The next inconsistency I noticed is the differences between the pages of the menu options'news', 'about us', academics, etc.
-        'News' and 'About us' have the same layout, with the menu options on a dark yellow background that turns red when hovering over,
-        red menu headlines and black text under it. When entering the 'academis' page there is another layout with no highlighted background,
-        black menu headlines and a submenu under it written in red and the links are underlined. 
-    </p>
-    <p>
-        Even the menu at the 'academics' page is inconsistent with itself. Some of the menu options dont have a submenu so the menu headline is instead
-        a red link that is underlined. The only consistency they use is that the all links are red and underlined, but when some menu
-        headlines are black and some are red links, it looks very messy and it makes me want to leave the page. The 'student life' page and the
-        'athletics' page also use this layout. The worst is that both of these pages have some menu headlines that are links, but they also have
-        submenus under them that are not!
-    </p>
-        
-    <p>
-        The research page has again a totally different layout and use different colors. I am not sure why this is so different and to get back to
-        where you were you must click the 'university website' that is written in small text at the top left of the page. Intuitively I thought
-        I would get back by clicking the louisiana logo or the 'home' link. It seems like there have been 3 different people making this page without
-        communicating.
-    </p>
+    <!-- Base Stylsheets http://twitter.github.com/bootstrap/ -->
+
+    <link rel="stylesheet" href="stylesheets/lib/jquery.fancybox.css" >
+
+
+    <!-- Your Stylesheets -->
+    <link rel="stylesheet" href="stylesheets/main.css" >
+
+
+    <!--  jQuery http://jquery.com/ -->
+    <script src="javascripts/lib/jquery-1.7.1.min.js"></script>
+
+    <!-- Bootstrap Javascripts http://twitter.github.com/bootstrap/javascript.html -->
+    <script src="javascripts/lib/bootstrap.js"></script>
+
+    <!-- Fancybox Lightbox http://fancyapps.com/fancybox/#examples -->
+    <script src="javascripts/lib/jquery.fancybox.js"></script>
+
+
+    <!-- Your Javascripts -->
+    <script src="javascripts/main.js"></script>
+
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="heading">
+        <header>
+          <ul>
+            <li class="title"> <a href="index.html"></a></li>
+            <li class="logo"> <a href="http://www.louisiana.edu/" target="_blank"></a></li>
+          </ul>
+       </header>
+      </div>
+
+
+      <div class="sidemenu">
+          <ul id="menu">
+            <li>
+              <a href ="index.html"> Home </a>
+            </li>
+            <br>
+            <li>
+              <a href ="visibility.html"> Visibility of system status </a>
+            </li>
+            <li>
+              <a href ="match.html"> Match between system and real world</a>
+            </li>
+            <li>
+              <a href ="usercontrol.html"> User control </a>
+            </li>
+            <li  class="selected">
+              <a href ="consistency.html"> Consistency </a>
+            </li>
+            <li>
+              <a href ="error.html">Error prevention </a>
+            </li>
+            <li>
+              <a href ="recognition.html"> Recognition rather than recall</a>
+            </li>
+            <li>
+              <a href ="flexibility.html"> Flexibility and efficiency </a>
+            </li>
+            <li>
+              <a href ="aesthetic.html"> Aesthetic and minimalist design </a>
+            </li>
+            <li>
+              <a href ="recovery.html"> Error recovery </a>
+            </li>
+            <li>
+              <a href ="help.html"> Help and documentation </a>
+            </li>
+          </ul>
+           
+      </div>
+        <div class= "content">
+            <h2>
+                Consistency: <em> Users should not have to wonder whether different words,
+                situations, or actions mean the same thing. Follow platform conventions.</em>
+            </h2>
             
-        
+            <div class ="images">
+                
+            </div>
+            <div class ="text">
+            
+                <p>
+                   The biggest and most noticeable error on the Louisiana website is the lack of consistency.
+                    I'll start with the home page. It looks okay but has many different menu- bars.
+                    One problem is the menu- bar at the bottom of the page, with 'search' and 'index a-z' etc.
+                    When clicking any link at the home page, the menu I just mentioned moves to the top right of
+                    the page and the colors in 'Ulink' changes. This makes it difficult from the start to get
+                    familiarized with the site. A menu like this should be placed in a fixed location.
+                    The same happens with the menu in the middle of the page, it moves to the right when entering a new page.
+                    The other menu- bar at the top starting with 'news' also changes background color from yellow to red.
+                </p>
+                
+                <p>
+                    The next inconsistency I noticed is the differences between the pages of the menu options  'news', 'about us',
+                    'academics', etc. 'News' and 'about us' have the same layout, with the menu options on a dark yellow
+                    background that turns red when hovering over, red menu headlines and black text under it.
+                    When entering the 'academics' page there is another layout with no highlighted background,
+                    black menu headlines and a submenu under it written in red and the links are underlined.
+                    This is also the case with the menu in the right, 'prospective students', 'current students' etc. They use two
+                    different layouts.
+                </p>
+                <p>
+                    Even the menu at the 'academics' page is inconsistent with itself. Some of the menu options don't have a
+                    submenu so the menu headline is instead a red link that is underlined.
+                    The only consistency they use is that all the links are red and underlined, but when some menu
+                    headlines are black and some are red links it looks very messy and it makes me want to leave the page.
+                    The 'student life' page and the 'athletics' page also use this layout.
+                    The worst is that both of these pages have some menu headlines that are links, but they also have
+                    submenus under them that are not!
+                </p>
+                    
+                <p>
+                    The research page has again a totally different layout and use different colors.
+                    I am not sure why this is so different and to get back to where you were you must click the
+                    'university website' that is written in small text at the top left of the page. Intuitively I thought
+                    I would get back by clicking the Louisiana logo or the 'home' link. Also the 'library' page use a different layout.
+                    It has the same colors, but is not inside a frame like the rest of the site.
+                    Under the 'student life' page there is a link to 'reentry students', again this pgae has
+                    a whole new layout. It seems like there have been many
+                    different people making this website without communicating. The color red is used through the
+                    different layouts, but with different red tones. Another problem with these different layouts are that the
+                    menu at the top is removed and there is no way to navigate back to the start page.
+                </p>
+                
+                <p>
+                    Another problem is the names and titles on the websites that are used. When clicking 'news' the page
+                    that opens is called 'communications and marketing' when you would expect it to be called
+                    'news'. To get to 'news' you have to click one more link. Also the 'academics', 'student life' and 'visitors'
+                    pages have another title than excpected. The names of the menu- options are poor and should meet the
+                    users assumption of what the page presents.
+                </p>
+                
+                <p>
+                    The site has different ways to indicate that something is a link. When hovering the mouse over a
+                    link the icon always turns into a pointing hand, but some places the background color changes and other
+                    places an icon next to the link is presented. Some links are also underlined. So there is
+                    clearly a huge lack of consistency throughout the whole website.
+                </p>
+            
+            </div>
+            
+        </div>
+    </div>
 
 </body>
 </html>
