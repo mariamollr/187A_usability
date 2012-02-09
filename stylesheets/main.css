@@ -114,6 +114,33 @@ h1 {
 	margin-left: 320px;
 }
 
+.next {
+	margin-top: 40px;
+	width: 175px;
+	float: right;
+	text-align: right;
+	margin-bottom: 40px;
+	font-family: 'Telex', sans-serif;
+	
+}
+.next a:link, .next a:visited {
+	text-decoration: none;
+	color: #C40C1D;
+}
+
+.previous {
+	
+	width: 200px;
+	
+	text-align: right;
+	font-family: 'Telex', sans-serif;
+}
+
+.previous a:link, .previous a:visited {
+	text-decoration: none;
+	color: #C40C1D;
+}
+
 h2 {
 	font-family: 'Telex', sans-serif;
         font-size: 18px;
@@ -201,4 +228,11 @@ ul#continents li {
 	height: 120px;
 	top: 0;
 	left: 680px;
+}
+
+.footer {
+	clear: both;
+	padding: 20px 0 10px 0;
+	font-size: smaller;
+	float: right
 }
