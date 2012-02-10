@@ -114,32 +114,46 @@ h1 {
 	margin-left: 320px;
 }
 
+.arrow {
+	bottom: 10px;
+	width: 690px;
+	height: 50px;
+	position: relative;
+	margin-left: 410px;
+	
+}
+
 .next {
-	margin-top: 40px;
+	margin-top: 60px;
 	width: 175px;
 	float: right;
 	text-align: right;
-	margin-bottom: 40px;
-	font-family: 'Telex', sans-serif;
+	margin-bottom: 20px;
+	position: relative;
 	
 }
-.next a:link, .next a:visited {
-	text-decoration: none;
-	color: #C40C1D;
+
+.next img {
+	width:30px
 }
 
 .previous {
+	margin-top: 60px;
+	width: 175px;
+	float: left;
+	text-align: left;
+	margin-bottom: 20px;
+	margin-left: -200px;
+	position: relative;
+	display: block;
 	
-	width: 200px;
+}
 	
-	text-align: right;
-	font-family: 'Telex', sans-serif;
+
+.previous img {
+	width:30px;
 }
 
-.previous a:link, .previous a:visited {
-	text-decoration: none;
-	color: #C40C1D;
-}
 
 h2 {
 	font-family: 'Telex', sans-serif;
