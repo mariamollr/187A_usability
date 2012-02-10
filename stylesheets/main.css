@@ -5,6 +5,10 @@ body  {
 	padding: 0;
 }
 
+p {
+	
+}
+
 img {
 	width: 200px;
 	margin: 0px 0 20px 0;
@@ -175,6 +179,11 @@ h2 em {
 	font-weight: normal;	
 }
 
+em {
+	color: #f4a460;
+	font-size: 18px;
+}
+
 /* header linking*/
 .heading ul {
 	list-style: none;
@@ -228,17 +237,12 @@ span {
 	font-size: 12px;
 }
 
-ul#continents li a span {
-	display: none;
-}
-
-ul#continents li a:hover {
-	display: block;
-}
-
 .footer {
 	clear: both;
 	padding: 20px 0 10px 0;
 	font-size: smaller;
-	float: right
+	width: 790px;
+	margin-left: 320px;
+	text-align: center;
+
 }
