@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Help and documentation</title>
+    <title>Home</title>
     <meta name="description" content="something good should go here">
     <meta name="author" content="your name should go here">
 
@@ -37,7 +37,7 @@
 
   <body>
     <div class="container">
-      <div class="heading">
+        <div class="heading">
         <header>
           <ul>
             <li class="title"> <a href="index.html"></a></li>
@@ -46,10 +46,9 @@
        </header>
       </div>
 
-
       <div class="sidemenu">
           <ul id="menu">
-            <li>
+            <li class="selected">
               <a href ="index.html"> Home </a>
             </li>
             <br>
@@ -68,77 +67,55 @@
             <li>
               <a href ="error.html">Error prevention </a>
             </li>
-            <li >
+            <li>
               <a href ="recognition.html"> Recognition rather than recall</a>
             </li>
             <li>
               <a href ="flexibility.html"> Flexibility and efficiency </a>
             </li>
-            <li >
+            <li>
               <a href ="aesthetic.html"> Aesthetic and minimalist design </a>
             </li>
             <li>
               <a href ="recovery.html"> Error recovery </a>
             </li>
-            <li class="selected">
+            <li>
               <a href ="help.html"> Help and documentation </a>
             </li>
           </ul>
            
       </div>
-        <div class= "content">
-            <h2>
-                Help and documentation: <em> "Even though it is better if the system can be used without documentation,
-                it may be necessary to provide help and documentation. Any such information should be easy to search,
-                focused on the user's task, list concrete steps to be carried out, and not be too large" </em>
-            </h2>
-            
-            <div class ="images">
-                <a class="fancybox" href="images/help1.jpg" data-fancybox-group="gallery" title="The Ulink
-                has a question section to the right">
-                <img src="images/help1.jpg" alt="consistency"></a>
-                <br>
-                
-            </div>
-            <div class ="text">
-            
-                <p>
-                    There is no help section for this website. I don't think it should be necessary with a help section on a
-                    university site, but this site would benefit from it. It would be helpful with a help page that explained
-                    how the site is built up in terms of the menu. The 'search', 'index a-z' and 'contact us' pages is probably the
-                    best tools if you find it difficult to use this site.
-                </p>
-                
-                <p>
-                    For the 'ulink' there are some questions on the side about the login. If you click them you get the answers.
-                    One of the answers also haa a link to a IT helpdesk for students and staff at Louisiana University.
-                </p>
-                
-            </div>
-        
-        </div>
-        
-        <div class="arrow">
-        
-            <div class= "next">
-                <a href="index.html">
-                <img src="images/Onext.png" alt="Next" title="Next"></a>
-                
-            </div>
-            
-            <div class= "previous">
-                <a href ="recovery.html">
-                <img src="images/Oback.png" alt="Back" title="Back"></a>
-            </div>
-            
-        </div>
-        
-        <div class= "footer">
-                <p> Created by Maria Moller and Ingrid Taroy; 2012 </p>
-         </div>
-    </div>
-    
-    
+      
+      <div class="content">
+        <h2>Contact us</h2>
 
-</body>
+        <article id="project1" class="span11">
+            <p>You can contact us by typing in a message in the form below</p>
+            <p>or send an email to: <a href="mariamollr@gmail.com">mariamollr@gmail.com</a> or <a href="i.taroy@gmail.com">i.taroy@gmail.com</a> </p>
+            
+          <form class="form">
+          <p class="name">
+            <input type="text" name="name">
+            <label for="name">Name</label>
+          </p>
+          <p class="email">
+            <input type="text" name="email">
+            <label for="email">E-mail</label>
+          </p>
+          <p class="phone">
+            <input type="text" name="phone">
+            <label for="phone">Phone</label>
+          </p>
+          <p class="message">
+            <textarea name="message" ></textarea>
+          </p>
+          <p>
+            <input type="submit" name="submit" value="Send Message" />
+          </p>
+          </form>
+        </article>
+      </div>
+      </div>
+ 
+  </body>
 </html>

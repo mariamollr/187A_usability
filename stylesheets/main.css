@@ -5,6 +5,10 @@ body  {
 	padding: 0;
 }
 
+p {
+	
+}
+
 img {
 	width: 200px;
 	margin: 0px 0 20px 0;
@@ -152,6 +156,32 @@ h1 {
 	margin-bottom: 10px;
 }
 
+.homearrow {
+	width: 900px;
+	height: 50px;
+	position: absolute;
+	left: 350px;
+	
+}
+.prev {
+	float: left;
+	text-align: left;
+	margin-top: 60px
+	
+}
+.homearrow img {
+	width:30px;
+	margin-bottom: 10px;
+}
+.homenext {
+	float: right;
+	text-align: right;
+	position: relative;
+	margin-right:210px;
+	margin-top: 60px
+	
+}
+
 
 h2 {
 	font-family: 'Telex', sans-serif;
@@ -172,6 +202,11 @@ h2 em {
 	color: black;
 	font-style: inherit;
 	font-weight: normal;	
+}
+
+em {
+	color: #f4a460;
+	font-size: 18px;
 }
 
 /* header linking*/
@@ -227,17 +262,21 @@ span {
 	font-size: 12px;
 }
 
-ul#continents li a span {
-	display: none;
-}
-
-ul#continents li a:hover {
-	display: block;
-}
-
 .footer {
 	clear: both;
 	padding: 20px 0 10px 0;
 	font-size: smaller;
-	float: right
+	width: 790px;
+	margin-left: 320px;
+	text-align: center;
+
+}
+.footerhome {
+	clear: both;
+	padding: 20px 0 10px 0;
+	font-size: smaller;
+	width: 790px;
+	margin-left: 320px;
+	text-align: center;
+	margin-top:120px
 }
