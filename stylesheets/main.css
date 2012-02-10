@@ -253,13 +253,25 @@ em {
 	visibility: visible;
 }
 
-span {
+.heading ul li span {
 	margin: 0px 0 0 10px;
 	border:1px solid #C40C1D;
 	text-align: center;
 	width: 150px;
 	left: 680px;
 	font-size: 12px;
+}
+
+textarea {
+	width: 400px;
+	max-width: 400px;
+	height: 150px;
+	line-height: 150%;
+}
+
+.contact em {
+	color: black;
+	font-size: medium;
 }
 
 .footer {
